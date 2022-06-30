@@ -13,7 +13,7 @@ const Navbar = () => {
                 <span className="cursor-pointer hover:text-gray-300 " >Courses</span>
                 <span className="cursor-pointer hover:text-gray-300 " >Platforms</span>
                 <span className="cursor-pointer hover:text-gray-300 " >Resources</span>
-                <span className="box-border px-10 py-4 border rounded-lg cursor-pointer hover:bg-white/5" >Contact</span>
+                <span className="box-border px-10 py-4 transition-all border-2 rounded-lg cursor-pointer hover:bg-[#4a3af8]/20" >Contact</span>
             </div>
         </nav>
     )
