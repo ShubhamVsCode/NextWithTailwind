@@ -12,6 +12,9 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="">
+      <Head>
+        <title>Online Eduction| Null | Shubham</title>
+      </Head>
       <div className="heroBg">
         <section className="py-10 mx-auto max-w-7xl">
           <Navbar />
