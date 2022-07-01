@@ -38,3 +38,10 @@ a {
   background-repeat: no-repeat;
   background-size:cover;
 }
+.bgFooter {
+  background: url("../images/bgFooter.svg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: -700px;
+  z-index: -10;
+}
