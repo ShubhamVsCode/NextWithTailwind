@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <div className="absolute left-0 border-8 rounded-full top-96 border-gray-100/50 h-52 w-52" ></div>
                     <div className="absolute w-24 h-24 border-8 rounded-full -left-28 top-96 border-gray-100/50" ></div>
                     <div className="absolute w-32 h-32 border-8 rounded-full top-20 left-20 border-gray-100/50 " ></div>
-                    <Image className="rounded-full" width="550" height="550" src={hero_girl} />
+                    <Image className="rounded-full" width="550" height="550" src={hero_girl} alt="" />
                 </div>
                 <div className="text-right text-white " >
                     <h1 className="font-semibold text-7xl " >A revolutionary way to educate.</h1>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                         the distribution of class materials.”
                     </p>
                     <div className="flex items-center justify-end space-x-2" >
-                        <Image src={play} className="transition-all cursor-pointer hover:scale-110 " />
+                        <Image src={play} className="transition-all cursor-pointer hover:scale-110 " alt="" />
                         <span>What's Null ?</span>
                     </div>
                 </div>

@@ -17,19 +17,19 @@ const Benifits = () => {
                 <div className="absolute w-24 h-24 border-8 rounded-full -left-28 -top-10 border-white/50" ></div>
                 <div className="absolute w-10 h-10 border-8 rounded-full -left-12 top-10 border-white/50" ></div>
                 <div className="absolute -top-20  hover:scale-[102%] transition-all " >
-                    <Image src={image1} />
+                    <Image src={image1} alt="" />
                 </div>
                 <div className="absolute right-72 top-40 hover:scale-[102%] transition-all " >
-                    <Image src={image2} />
+                    <Image src={image2} alt="" />
                 </div>
                 <div className="absolute left-72 bottom-52 hover:scale-[102%] transition-all " >
-                    <Image src={image3} />
+                    <Image src={image3} alt="" />
                 </div>
                 <div className="absolute -bottom-10 left-48 hover:scale-[102%] transition-all " >
-                    <Image src={image4} />
+                    <Image src={image4} alt="" />
                 </div>
                 <div className="absolute -bottom-32 left-10 hover:scale-[102%] transition-all " >
-                    <Image src={image5} />
+                    <Image src={image5} alt="" />
                 </div>
             </div>
             <div className="flex-1 space-y-10 text-white my-28 " >

@@ -13,7 +13,7 @@ const Instrctor = () => {
                 <button className="px-10 py-3 transition-all text-white hover:bg-[#6735ff] bg-[#794BFF] rounded-md">Apply</button>
             </div>
             <div className="bg-[#AD90FF] m-6 overflow-hidden w-96 h-96 rounded-full" >
-                <Image src={Instructor} />
+                <Image src={Instructor} alt="" />
             </div>
         </div>
     )

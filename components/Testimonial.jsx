@@ -9,7 +9,7 @@ const Testimonial = () => {
             <div className="flex justify-between" >
                 <div>
                     <div>
-                        <Image src={people1} />
+                        <Image src={people1} alt="" />
                     </div>
                     <div className="inline-flex transition-all border-4 border-[#AD90FF] px-10 pt-20 rounded-3xl shadow-xl hover:shadow-2xl -my-20 w-80" >
                         <div>
@@ -20,7 +20,7 @@ const Testimonial = () => {
                 </div>
                 <div>
                     <div>
-                        <Image src={people2} />
+                        <Image src={people2} alt="" />
                     </div>
                     <div className="inline-flex transition-all border-4 border-[#FF91E0] px-10 pt-20 rounded-3xl shadow-xl hover:shadow-2xl -my-20 w-80" >
                         <div>
@@ -31,7 +31,7 @@ const Testimonial = () => {
                 </div>
                 <div>
                     <div>
-                        <Image src={people1} />
+                        <Image src={people1} alt="" />
                     </div>
                     <div className="inline-flex transition-all border-4 border-[#AD90FF] px-10 pt-20 rounded-3xl shadow-xl hover:shadow-2xl -my-20 w-80" >
                         <div>
