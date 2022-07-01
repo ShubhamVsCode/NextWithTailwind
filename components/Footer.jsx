@@ -51,13 +51,13 @@ const Footer = () => {
                         <li>shubhamvscode@gmail.com</li>
                         <div className="flex items-center mt-5 space-x-5" >
                             <div>
-                                <Image src={linkedin} width={30} height={30} />
+                                <Image src={linkedin} alt="" width={30} height={30} />
                             </div>
                             <div>
-                                <Image src={fb} width={30} height={30} />
+                                <Image src={fb} alt="" width={30} height={30} />
                             </div>
                             <div>
-                                <Image src={be} width={30} height={30} />
+                                <Image src={be} alt="" width={30} height={30} />
                             </div>
                         </div>
                     </ul>

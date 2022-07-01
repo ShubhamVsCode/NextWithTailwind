@@ -6,7 +6,7 @@ const BenifitsCard = ({ Icon, title }) => {
         <div>
             <div className="grid grid-cols-10 place-items-center" >
                 <div className="flex items-center justify-center w-20 h-20 col-span-2 bg-white rounded-full " >
-                    <Image src={Icon} />
+                    <Image src={Icon} alt="" />
                 </div>
                 <div className="col-span-7" >
                     <h2 className="my-2 text-3xl font-semibold" >{title}</h2>
