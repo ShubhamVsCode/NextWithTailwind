@@ -15,17 +15,6 @@ const Footer = () => {
                         {/* <div className="absolute w-4 h-4 bg-white rounded-full top-[5px] -right-4" ></div> */}
                         <p className="pt-5 mx-2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium numquam commodi consequatur fugiat quidem saepe, suscipit dolores sint dolorem, eaque similique sequi.
                         </p>
-                        <div className="flex items-center mx-2 mt-5 space-x-5" >
-                            <div>
-                                <Image src={linkedin} width={30} height={30} />
-                            </div>
-                            <div>
-                                <Image src={fb} width={30} height={30} />
-                            </div>
-                            <div>
-                                <Image src={be} width={30} height={30} />
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="" >
@@ -60,6 +49,17 @@ const Footer = () => {
                     <ul className="space-y-4" >
                         <li>(+91) 9876543211</li>
                         <li>shubhamvscode@gmail.com</li>
+                        <div className="flex items-center mt-5 space-x-5" >
+                            <div>
+                                <Image src={linkedin} width={30} height={30} />
+                            </div>
+                            <div>
+                                <Image src={fb} width={30} height={30} />
+                            </div>
+                            <div>
+                                <Image src={be} width={30} height={30} />
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
